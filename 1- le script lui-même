@@ -1,0 +1,6 @@
+#!/bin/sh
+# modifier le zoom dans libre office
+# nécessite d'installer xdotool
+sleep 1; #pour laisser le temps de revenir à Libre-Office.
+xdotool key "alt+a" z z
+exit 0;
